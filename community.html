@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Community</title>
+    <link rel="stylesheet" href="community.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-img">
+            <img src="images\IMG-20240126-WA0025.jpg" id="bg-left">
+            <img src="images/IMG-20240126-WA0026-removebg-preview.png" id="astronaut">
+            <img src="images/IMG-20240126-WA0028-removebg-preview.png" id="globe">
+        </div>
+        <div class="right-login">
+            <span  id="arrow">English (UK) <img src="images\arrow_down-2.png" class="arrow"></span>
+            <h2>Create Account</h2>
+            <div class="social-link">
+                <a href="#">
+                    <img src="images\kisspng-google-logo-5b02bbe1d5c6e0.2384399715269058258756.jpg" class="social-img">
+                    <span>Sign up with Google</span>
+                </a>
+                <a href="#">
+                    <img src="images\facebook-circle-svgrepo-com.svg" class="social-img">
+                    <span>Sign up with Facebook</span>
+                </a>
+            </div>
+
+            <h4>-OR-</h4>
+            <form action="get">
+                <input type="text" id="fname" placeholder="Full Name" class="border" onclick="removeBorder()" required>
+                <input type="email" id="email" placeholder="Email Address" class="border" onclick="removeBorder()" required>
+                <input type="password" id="pwd" placeholder="Password" maxlength="6" class="border" onclick="removeBorder()" required>
+
+                <button type="submit">Create Account</button>
+                <p>Already have an account ? <a href="#" id="login">Login</a></p>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
